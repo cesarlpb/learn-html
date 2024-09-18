@@ -6,9 +6,10 @@ Lista de etiquetas básicas en HTML:
 
 1. **`<!DOCTYPE html>`**: Declara el tipo de documento como HTML5.
 2. **`<html>`**: Contenedor principal de un documento HTML.
+   - A menudo tiene el atributo `lang` para indicar el idioma.
 3. **`<head>`**: Contiene metadatos del documento como el título y enlaces a hojas de estilo.
    - **`<title>`**: Define el título de la página (visible en la pestaña del navegador).
-   - **`<meta>`**: Define metadatos como la codificación del documento (e.g., `<meta charset="UTF-8">`).
+   - **`<meta>`**: Define metadatos como la codificación del documento (e.g., `<meta charset="UTF-8">`). Se usa para asegurar que los caracteres especiales como `ñ` aparecen bien.
    - **`<link>`**: Enlaza recursos externos, como hojas de estilo CSS.
 4. **`<body>`**: Contiene todo el contenido visible en la página.
 5. **`<h1>`** a **`<h6>`**: Encabezados, siendo `<h1>` el más importante y `<h6>` el menos importante.
