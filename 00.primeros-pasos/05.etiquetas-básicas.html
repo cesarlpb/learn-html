@@ -106,9 +106,16 @@
     Enlace a un excel: <a href="datos.xls">Abrir</a>
   </p>
 
-  <p>No hay que confundir las etiquetas < link > y < a >: la primera sirve para importar recursos (hojas de estilo, fuentes, etc...) y la segunda es la etiqueta que enlaza con recursos que se deben abrir o descargar.</p>
   <!-- link -->
-  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css"> -->
+  <h2>Etiqueta < link ></h2>
+
+  <p>No hay que confundir las etiquetas < link > y < a >: la primera sirve para importar recursos (hojas de estilo, fuentes, etc...) y la segunda es la etiqueta que enlaza con recursos que se deben abrir o descargar.</p>
+  
+  <p> < link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css" > </p>
+  
+  <hr>
+
+  <h2>Etiqueta < img ></h2>
   
   <!-- img -->
   <img src="https://upload.wikimedia.org/wikipedia/en/a/a6/Pok%C3%A9mon_Pikachu_art.png" alt="Pikachu">
@@ -124,9 +131,36 @@
   
   -->
   <img src="code.jpg" alt="HTML" width="500" height="auto">
+  
+  <hr>
   <!-- video y audio -->
+  <h2>video</h2>
+
+  <p>La etiqueta de vídeo permite añadir controles con "controls", reproducción automática con "autoplay" => hay que añadir "muted" para que se reproduzca en silencio en algunos navegadores. Se recomienda usar ambos atributos.</p>
+
+  <p>Para ponerlo en bucle se añade loop</p>
+  
+  <video src="video.mp4" controls autoplay muted loop></video>
+
+  <p>Si queremos que haya un mensaje en caso de que el vídeo no esté disponible</p>
+
+  <p>También podemos colocar un poster (imagen) por defecto.</p>
+  
+  <video controls poster="https://icon-library.com/images/video-icon-flat/video-icon-flat-12.jpg" width="500">
+    <source src="algo-que-no-existe.mp4" type="video/mp4">
+    <!-- El mensaje lo mostratemos con Javascript más adelante -->
+    <p>Este vídeo no está disponible</p>
+  </video>
+
+  <h2>audio</h2>
+
+  <p>Hay que colocar "controls" para habilitar los controles del audio:</p>
+
+  <audio src="audio.mp3" controls></audio>
 
   <!-- Texto -->
+
+
 
   <p>Contenido</p>
 </body>
