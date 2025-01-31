@@ -1,192 +1,194 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Etiquetas Básicas</title>
-</head>
-<body>
-  <h1>Etiquetas Básicas</h1>
-  
-  <h2>Encabezados: h1 a h6</h2>
-  <!-- h1 ... h6 -->
-  <p>Ejemplo de contenidos de un libro de HTML:</p>
-  
-  <h1>Libro de HTML</h1>
 
-    <h2>Tema 1: ¿Qué es HTML?</h2>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas Básicas</title>
+  </head>
 
-      <h3>1.1 Historia de HTML</h3>
-      <h3>1.2 Versiones de HTML</h3>
-      <h3>1.3 Nuevo logo de HTML</h3>
-
-    <h2>Tema 2: Sintáxis de HTML</h2>
-
-      <h3>Estructura de una etiqueta</h3>
-      <h3>Atributos</h3>
-      <h3>Buenas prácticas</h3>
+  <body>
+    <h1>Etiquetas Básicas</h1>
     
-    <h2>Tema 3: Etiquetas básicas de HTML</h2>
+    <h2>Encabezados: h1 a h6</h2>
+    <!-- h1 ... h6 -->
+    <p>Ejemplo de contenidos de un libro de HTML:</p>
+    
+    <h1>Libro de HTML</h1>
 
-      <h3>DOCTYPE</h3>    
-      <h3>Encabezados</h3>
-      <h3>Otras etiquetas</h3>
-  
-  
-  <!-- 
-  otros encabezados:
-  <h4>Encabezado 4</h4>
-  <h5>Encabezado 5</h5>
-  <h6>Encabezado 6</h6> 
-  -->
+      <h2>Tema 1: ¿Qué es HTML?</h2>
 
-  <hr>
+        <h3>1.1 Historia de HTML</h3>
+        <h3>1.2 Versiones de HTML</h3>
+        <h3>1.3 Nuevo logo de HTML</h3>
 
-  <h2>Etiqueta de párrafo: < p ></h2>
-  <!-- p -->
+      <h2>Tema 2: Sintáxis de HTML</h2>
 
-  <!-- El texto (de lectura, documentación, informativo, de un post...) SIEMPRE debe ir en un párrafo -->
-  <p>Esto es un párrafo.</p>
-  <!-- En VS Code podemos usar Emmet para rellenar con texto de lorem nuestros documentos. El atajo es lorem o lorem10 para 10 palabras -->
-  <p>
-    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam molestiae qui accusantium deleniti incidunt dolores sapiente ducimus tempore optio eos esse, voluptate eaque voluptatibus enim, quam exercitationem nostrum ipsum vitae reprehenderit, debitis repellat sunt. 
-  </p>
-  <!-- Si hay indentaciones, la etiqueta p no las mantiene. El texto aparece correctamente espaciado en la página. -->
-  <p>Texto              con           indentación.</p>
-  <!-- Si hay saltos de línea => el texto aparece formateado correctamente. -->
-  <p>Texto
-    con
-    salto
-    de
+        <h3>Estructura de una etiqueta</h3>
+        <h3>Atributos</h3>
+        <h3>Buenas prácticas</h3>
+      
+      <h2>Tema 3: Etiquetas básicas de HTML</h2>
+
+        <h3>DOCTYPE</h3>    
+        <h3>Encabezados</h3>
+        <h3>Otras etiquetas</h3>
+    
+    
+    <!-- 
+    otros encabezados:
+    <h4>Encabezado 4</h4>
+    <h5>Encabezado 5</h5>
+    <h6>Encabezado 6</h6> 
+    -->
+
+    <hr>
+
+    <h2>Etiqueta de párrafo: < p ></h2>
+    <!-- p -->
+
+    <!-- El texto (de lectura, documentación, informativo, de un post...) SIEMPRE debe ir en un párrafo -->
+    <p>Esto es un párrafo.</p>
+    <!-- En VS Code podemos usar Emmet para rellenar con texto de lorem nuestros documentos. El atajo es lorem o lorem10 para 10 palabras -->
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam molestiae qui accusantium deleniti incidunt dolores sapiente ducimus tempore optio eos esse, voluptate eaque voluptatibus enim, quam exercitationem nostrum ipsum vitae reprehenderit, debitis repellat sunt. 
+    </p>
+    <!-- Si hay indentaciones, la etiqueta p no las mantiene. El texto aparece correctamente espaciado en la página. -->
+    <p>Texto              con           indentación.</p>
+    <!-- Si hay saltos de línea => el texto aparece formateado correctamente. -->
+    <p>Texto
+      con
+      salto
+      de
 
 
 
-    línea.
-  </p>
-  <!-- Forma correcta de separar párrafos -->
-  <p>Párrafo 1</p>
+      línea.
+    </p>
+    <!-- Forma correcta de separar párrafos -->
+    <p>Párrafo 1</p>
 
-  <p>Párrafo 2</p>
+    <p>Párrafo 2</p>
 
-  <p>Párrafo 3</p>
+    <p>Párrafo 3</p>
 
-  <hr>
+    <hr>
 
-  <!-- enlaces: a -->
-  <h2>Enlaces: < a ></h2>
+    <!-- enlaces: a -->
+    <h2>Enlaces: < a ></h2>
 
-  <!-- URL: localizador uniforme de recursos
-  Más información: https://es.semrush.com/blog/que-es-una-url/ 
-  -->
-  
-  <!-- Por defecto, se sustituye la página actual por la del enlace, en este caso, Google -->
-  <p>
-    Enlace: <a href="https://www.google.es/">Abrir Google</a>
-  </p>
-  <!-- Añadiendo target como _blank se abre el enlace en una pestaña nueva -> habitual con enlaces externos -->
-  <p>
-    <a href="https://www.google.es/" target="_blank">Abrir Google</a>
-  </p>
-  <p>
-    <a href="#">Enlace interno</a>
-  </p>
+    <!-- URL: localizador uniforme de recursos
+    Más información: https://es.semrush.com/blog/que-es-una-url/ 
+    -->
+    
+    <!-- Por defecto, se sustituye la página actual por la del enlace, en este caso, Google -->
+    <p>
+      Enlace: <a href="https://www.google.es/">Abrir Google</a>
+    </p>
+    <!-- Añadiendo target como _blank se abre el enlace en una pestaña nueva -> habitual con enlaces externos -->
+    <p>
+      <a href="https://www.google.es/" target="_blank">Abrir Google</a>
+    </p>
+    <p>
+      <a href="#">Enlace interno</a>
+    </p>
 
-  <!-- Enlace a otro documento en la misma carpeta -->
-  <p>
-    Documento de encabezados. <a href="04.encabezados.html">Abrir</a>
-  </p>
+    <!-- Enlace a otro documento en la misma carpeta -->
+    <p>
+      Documento de encabezados. <a href="04.encabezados.html">Abrir</a>
+    </p>
 
-  <!-- Enlace a una imagen en una página web de internet -->
-  <p>
-    Enlace a Pikachu: <a href="https://upload.wikimedia.org/wikipedia/en/a/a6/Pok%C3%A9mon_Pikachu_art.png" target="_blank">Ver Pikachu</a>
-  </p>
+    <!-- Enlace a una imagen en una página web de internet -->
+    <p>
+      Enlace a Pikachu: <a href="https://upload.wikimedia.org/wikipedia/en/a/a6/Pok%C3%A9mon_Pikachu_art.png" target="_blank">Ver Pikachu</a>
+    </p>
 
-  <!-- Si el formato de archivo no se puede abrir en el navegador => nos saldrá la opción de descargarlo -->
-  <p>
-    Enlace a un excel: <a href="datos.xls">Abrir</a>
-  </p>
+    <!-- Si el formato de archivo no se puede abrir en el navegador => nos saldrá la opción de descargarlo -->
+    <p>
+      Enlace a un excel: <a href="datos.xls">Abrir</a>
+    </p>
 
-  <!-- link -->
-  <h2>Etiqueta < link ></h2>
+    <!-- link -->
+    <h2>Etiqueta < link ></h2>
 
-  <p>No hay que confundir las etiquetas < link > y < a >: la primera sirve para importar recursos (hojas de estilo, fuentes, etc...) y la segunda es la etiqueta que enlaza con recursos que se deben abrir o descargar.</p>
-  
-  <p> < link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css" > </p>
-  
-  <hr>
+    <p>No hay que confundir las etiquetas < link > y < a >: la primera sirve para importar recursos (hojas de estilo, fuentes, etc...) y la segunda es la etiqueta que enlaza con recursos que se deben abrir o descargar.</p>
+    
+    <p> < link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css" > </p>
+    
+    <hr>
 
-  <h2>Etiqueta < img ></h2>
-  
-  <!-- img -->
-  <img src="https://upload.wikimedia.org/wikipedia/en/a/a6/Pok%C3%A9mon_Pikachu_art.png" alt="Pikachu">
-  
-  <!-- Salto de línea -->
-  <br>
-  <br>
+    <h2>Etiqueta < img ></h2>
+    
+    <!-- img -->
+    <img src="https://upload.wikimedia.org/wikipedia/en/a/a6/Pok%C3%A9mon_Pikachu_art.png" alt="Pikachu">
+    
+    <!-- Salto de línea -->
+    <br>
+    <br>
 
-  <!-- Podemos determinar el ancho y la altura de una imagen:
-  
-  width:  px
-  height: px 
-  
-  -->
-  <img src="code.jpg" alt="HTML" width="500" height="auto">
-  
-  <hr>
-  <!-- video y audio -->
-  <h2>video</h2>
+    <!-- Podemos determinar el ancho y la altura de una imagen:
+    
+    width:  px
+    height: px 
+    
+    -->
+    <img src="code.jpg" alt="HTML" width="500" height="auto">
+    
+    <hr>
+    <!-- video y audio -->
+    <h2>video</h2>
 
-  <p>La etiqueta de vídeo permite añadir controles con "controls", reproducción automática con "autoplay" => hay que añadir "muted" para que se reproduzca en silencio en algunos navegadores. Se recomienda usar ambos atributos.</p>
+    <p>La etiqueta de vídeo permite añadir controles con "controls", reproducción automática con "autoplay" => hay que añadir "muted" para que se reproduzca en silencio en algunos navegadores. Se recomienda usar ambos atributos.</p>
 
-  <p>Para ponerlo en bucle se añade loop</p>
-  
-  <video src="video.mp4" controls autoplay muted loop></video>
+    <p>Para ponerlo en bucle se añade loop</p>
+    
+    <video src="video.mp4" controls autoplay muted loop></video>
 
-  <p>Si queremos que haya un mensaje en caso de que el vídeo no esté disponible</p>
+    <p>Si queremos que haya un mensaje en caso de que el vídeo no esté disponible</p>
 
-  <p>También podemos colocar un poster (imagen) por defecto.</p>
-  
-  <video controls poster="https://icon-library.com/images/video-icon-flat/video-icon-flat-12.jpg" width="500">
-    <source src="algo-que-no-existe.mp4" type="video/mp4">
-    <!-- El mensaje lo mostratemos con Javascript más adelante -->
-    <p>Este vídeo no está disponible</p>
-  </video>
+    <p>También podemos colocar un poster (imagen) por defecto.</p>
+    
+    <video controls poster="https://icon-library.com/images/video-icon-flat/video-icon-flat-12.jpg" width="500">
+      <source src="algo-que-no-existe.mp4" type="video/mp4">
+      <!-- El mensaje lo mostratemos con Javascript más adelante -->
+      <p>Este vídeo no está disponible</p>
+    </video>
 
-  <h2>audio</h2>
+    <h2>audio</h2>
 
-  <p>Hay que colocar "controls" para habilitar los controles del audio:</p>
+    <p>Hay que colocar "controls" para habilitar los controles del audio:</p>
 
-  <audio src="audio.mp3" controls></audio>
+    <audio src="audio.mp3" controls></audio>
 
-  <!-- Texto -->
+    <!-- Texto -->
 
-  <h2>Modificadores de texto</h2>
+    <h2>Modificadores de texto</h2>
 
-  <b> Texto en negritas con < b > o bold</b>
-  <br>
-  <strong> Texto importante con < strong ></strong>
-  
-  <br><br>
-  
-  <i>Texto en cursiva con < i > o italics</i>
-  <br>
-  <em>Texto enfatizado con < em ></em>
-  <br><br>
+    <b> Texto en negritas con < b > o bold</b>
+    <br>
+    <strong> Texto importante con < strong ></strong>
+    
+    <br><br>
+    
+    <i>Texto en cursiva con < i > o italics</i>
+    <br>
+    <em>Texto enfatizado con < em ></em>
+    <br><br>
 
-  <mark>Texto resaltado con < mark ></mark>
+    <mark>Texto resaltado con < mark ></mark>
 
-  <br><br>
+    <br><br>
 
-  <small>Texto pequeño con < small ></small>
-  <br><br>
+    <small>Texto pequeño con < small ></small>
+    <br><br>
 
-  <del>Texto borrado (tachado) con < del ></del>
-  <br>
-  <ins>Texto insertado con < ins ></ins>
-  <br><br>
+    <del>Texto borrado (tachado) con < del ></del>
+    <br>
+    <ins>Texto insertado con < ins ></ins>
+    <br><br>
 
-  <p>Subíndice: H<sub>2</sub>O</p>
-  <p>Superíndice: m<sup>2</sup></p>
+    <p>Subíndice: H<sub>2</sub>O</p>
+    <p>Superíndice: m<sup>2</sup></p>
 
-</body>
+  </body>
 </html>
