@@ -6,7 +6,7 @@ Hay 3 niveles:
 - **Intermedios:** ademas de usar las etiquetas, creamos funcionalidad
 - **Avanzados:** además de funcionalidad, añadimos estructura y semántica
 
-## Objetivos
+## Objetivos
 
 - **Nivel básico:** debemos poder resolverlos en minutos. Casi la primera idea es la solución correcta.
 - *+Nivel intermedio:** es posible que debamos consultar alguna fuente para plantear una de las posible(s) soluciones correctas.
